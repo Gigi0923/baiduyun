@@ -7,12 +7,12 @@ class MyTest(unittest.TestCase):
 		self.driver.implicitly_wait(10)
 		self.driver.maximize_window()
 		self.login_url="https://login.bce.baidu.com/"
-		self.username="15900443703"
-		self.password="zhuqiuge23@"
+		self.username=""
+		self.password=""
 		self.login_url="https://login.bce.baidu.com/"
 		self.newprovidename="gr4"
 		self.newcontactname="Gi8"
-		self.newcontactphone="15900443703"
+		self.newcontactphone=""
 		self.admin_username=""
 
 	def tearDown(self):
